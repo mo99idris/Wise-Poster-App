@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wise"
+
+    tools:context=".LoginAct">
+
+    <EditText
+        android:id="@+id/login_userID_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:background="@drawable/bg"
+
+        android:drawableRight="@drawable/baseline_face_white_18dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:hint="@string/login__userID"
+        android:inputType="phone"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/_22ssp" />
+
+    <EditText
+        android:id="@+id/login_pwd_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:background="@drawable/bg"
+
+        android:drawableRight="@drawable/baseline_https_white_18dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:hint="@string/login_pwd"
+        android:inputType="textPassword"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/_22ssp" />
+
+    <CheckBox
+        android:id="@+id/login_remember_ch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#eee"
+        android:textColorHint="@color/white"
+        android:layout_margin="@dimen/_20sdp"
+        android:padding="@dimen/_10sdp"
+        android:textSize="20sp"
+        android:text="@string/login_rememberMe" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="@dimen/_20sdp"
+        android:padding="@dimen/_20sdp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/dark_pink"
+        android:textSize="@dimen/_20ssp"
+        android:textAllCaps="false"
+
+        android:text="@string/login_btn" />
+
+
+
+
+
+</LinearLayout>

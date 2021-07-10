@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/edit_toolbar"/>
+
+
+
+    <EditText
+        android:layout_marginTop="@dimen/_50sdp"
+        android:id="@+id/text_tweet_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:hint="@string/hint_tweet"
+        android:maxLines="9"
+        />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp">
+
+
+        <ImageView
+            android:id="@+id/insert_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@drawable/gradient_bg"
+            />
+
+
+        <TextView
+            android:id="@+id/hint_img_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insert_image"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_20ssp"
+            android:fontFamily="@font/nunitosans_extralight"/>
+
+        <ImageButton
+            android:id="@+id/remove_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_280sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/baseline_clear_white_20"
+            android:background="@drawable/bg"
+            android:backgroundTint="@color/black"
+           />
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/upload_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="@string/upload_btn" />
+
+
+
+</LinearLayout>

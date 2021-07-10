@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lng_title">اللغات</string>
+    <string name="lng_ar">عربي</string>
+    <string name="lng_en">إنجليزي</string>
+    <string name="dash_title">لوحة التحكم</string>
+    <string name="dash_posters">إعلانات</string>
+    <string name="dash_profile">ملفي الشخصي</string>
+    <string name="dash_logout">تسجيل الخروج</string>
+    <string name="dash_lng">اللغة</string>
+    <string name="login_title">سجل دخولك</string>
+    <string name="login__userID">رقم المستخدم</string>
+    <string name="login_pwd">كلمة المرور</string>
+    <string name="login_rememberMe">تذكرني</string>
+    <string name="login_btn">تسجيل الدخول</string>
+    <string name="save_btn">حفظ</string>
+    <string name="saved_btn">تم الحفظ</string>
+    <string name="report_title">سجل التقارير</string>
+    <string name="upload_title">نشر إعلان</string>
+    <string name="upload_btn">نشر</string>
+    <string name="insert_image">ادخِل صورة</string>
+    <string name="hint_tweet">ماذا يخطر في بالك..؟</string>
+    <string name="edit_btn">تحرير</string>
+    <string name="delete_btn">حذف</string>
+    <string name="search_hint">إبحث عن إسم مستخدم..</string>
+
+</resources>

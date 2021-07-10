@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search_toolbar"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <EditText
+        android:padding="@dimen/_10sdp"
+        android:id="@+id/search_field_et"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/searchview_backgound"
+       android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:hint="@string/search_hint"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableRight="@drawable/ic_search_black_24dp"
+        android:imeOptions="actionDone"
+        android:inputType="text"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

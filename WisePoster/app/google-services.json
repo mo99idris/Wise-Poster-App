@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "380254862367",
+    "project_id": "wise-poster",
+    "storage_bucket": "wise-poster.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380254862367:android:62bd679caec6edffcf692a",
+        "android_client_info": {
+          "package_name": "com.example.wiseposter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380254862367-4d1b7t4i75ivruc4vgri076vphieurja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzGDDcevGKeDLVzk_W9WXEhgQszseutdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380254862367-4d1b7t4i75ivruc4vgri076vphieurja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

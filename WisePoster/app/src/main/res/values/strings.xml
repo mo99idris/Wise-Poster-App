@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name" translatable="false">Wise Poster</string>
+    <string name="lng_title">Languages</string>
+    <string name="lng_ar">Arabic</string>
+    <string name="lng_en">English</string>
+    <string name="dash_title">My Dashboard</string>
+    <string name="dash_posters">Posters</string>
+    <string name="dash_profile">Profile</string>
+    <string name="dash_logout">Logout</string>
+    <string name="dash_lng">Language</string>
+    <string name="login_title">Login page</string>
+    <string name="login__userID">User ID</string>
+    <string name="login_pwd">Password</string>
+    <string name="login_rememberMe">Remember me</string>
+    <string name="login_btn">Login</string>
+    <string name="save_btn">save</string>
+    <string name="saved_btn">saved</string>
+    <string name="report_title">Report history</string>
+    <string name="upload_title">Upload post</string>
+    <string name="upload_btn">UPLOAD</string>
+    <string name="insert_image">insert Image</string>
+    <string name="hint_tweet">What you think..?</string>
+    <string name="edit_btn">edit</string>
+    <string name="delete_btn">delete</string>
+    <string name="search_hint">type a username..</string>
+
+
+</resources>
